@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 
 namespace RobotWarsCode.Core.Models {
-   class Grid {
+   public class Grid : IModel {
+      public Rectangle Rect { get; set; }
    }
 }
